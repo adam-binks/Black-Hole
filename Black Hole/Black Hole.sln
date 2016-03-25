@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{F53A5F84-510C-3A6D-640C-03F231530788}") = "Black Hole", "Assembly-CSharp.csproj", "{18B68C87-CD7E-88D9-2729-8C4D851B0D22}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18B68C87-CD7E-88D9-2729-8C4D851B0D22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18B68C87-CD7E-88D9-2729-8C4D851B0D22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18B68C87-CD7E-88D9-2729-8C4D851B0D22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18B68C87-CD7E-88D9-2729-8C4D851B0D22}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
