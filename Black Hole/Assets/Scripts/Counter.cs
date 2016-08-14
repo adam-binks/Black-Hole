@@ -8,7 +8,7 @@ public enum CounterState { Stack, Hand, Board }
 public class Counter : MonoBehaviour {
 
 	public string team;
-	public int value;
+	public int counterValue;
 	public Color redColour;
 	public Color blueColour;
 	public CounterState state;
@@ -20,8 +20,8 @@ public class Counter : MonoBehaviour {
 		thisImage = GetComponent<Image> ();
 
 		team = thisTeam;
-		value = thisValue;
-		GetComponentInChildren<Text>().text = value.ToString();
+		counterValue = thisValue;
+		GetComponentInChildren<Text>().text = counterValue.ToString();
 		if (team == "Red") {
 			thisImage.color = redColour;
 		} else if (team == "Blue") {

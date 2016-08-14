@@ -1,7 +1,11 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
+Project("{F53A5F84-510C-3A6D-640C-03F231530788}") = "Black Hole", "Assembly-CSharp-firstpass.csproj", "{F25969C2-AA77-A3BE-788F-79CA771C4152}"
+EndProject
 Project("{F53A5F84-510C-3A6D-640C-03F231530788}") = "Black Hole", "Assembly-CSharp.csproj", "{18B68C87-CD7E-88D9-2729-8C4D851B0D22}"
+EndProject
+Project("{F53A5F84-510C-3A6D-640C-03F231530788}") = "Black Hole", "Assembly-CSharp-Editor.csproj", "{61034BB6-51B9-075A-C5DE-9EAF5E2B2038}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +13,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F25969C2-AA77-A3BE-788F-79CA771C4152}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F25969C2-AA77-A3BE-788F-79CA771C4152}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F25969C2-AA77-A3BE-788F-79CA771C4152}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F25969C2-AA77-A3BE-788F-79CA771C4152}.Release|Any CPU.Build.0 = Release|Any CPU
 		{18B68C87-CD7E-88D9-2729-8C4D851B0D22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{18B68C87-CD7E-88D9-2729-8C4D851B0D22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18B68C87-CD7E-88D9-2729-8C4D851B0D22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18B68C87-CD7E-88D9-2729-8C4D851B0D22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61034BB6-51B9-075A-C5DE-9EAF5E2B2038}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61034BB6-51B9-075A-C5DE-9EAF5E2B2038}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61034BB6-51B9-075A-C5DE-9EAF5E2B2038}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61034BB6-51B9-075A-C5DE-9EAF5E2B2038}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
